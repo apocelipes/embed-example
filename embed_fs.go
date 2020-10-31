@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-//go:embed .
+//go:embed *
 var dir embed.FS
 
 func printDir(name string) {
